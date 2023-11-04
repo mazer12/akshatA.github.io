@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio | Akshat Agrawal </title>
+      <link rel="stylesheet" href="project1.css"> 
+      <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <div class="box">
+<!-- <div id="header">
+    <div class="container">
+        <nav>
+            <p class="p1">Akshat Agrawal</p>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</div> -->
+<nav id="desktop-nav">
+  <div class="container">
+  <nav>
+  <p class="p1">Akshat Agrawal</p>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+</nav>
+<nav id="hamburger-nav">
+  <div class="containerHam">
+    <nav>
+  <p class="p1">Akshat Agrawal</p>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </div>
+</nav>
+  </div>
+</nav>
+
+<!-- Project details -->
+
+<section id="projectD">
+    <h1 class="title">STOLEN PAIR</h1>
+    <ul class="details-list">
+        <li><strong class="entry">Platform :</strong> Windows</li>
+        <li><strong class="entry">Engine: </strong> Unity</li>
+        <li><strong class="entry">Language :</strong> C#</li>
+        <li><strong class="entry">Duration :</strong> 2.5 months</li>
+        <li><strong class="entry">Project type :</strong> Group project</li>
+        <li><strong class="entry">Team Size :</strong> 4 (2 Artists, 1 Designer and me)</li>
+        <li><strong class="entry">Role :</strong> Lead game programmer, sounds, UI elements </li>
+    </ul>
+    <div class="overview">
+        <strong class="entry">Overwiew :</strong>
+        <p class="para"> This is a two-player FPS game. The devil has stolen a sock (yes a sock) from the god. 
+            God sends a pair of angel siblings to retrieve the sock and exterminate this devil. The angel who wins this battle will
+            receive their wings from the god. Each of the two players will play as one of the angels, and the angel with the most damage dealt to
+            the devil will win the game.    </p>
+    </div>
+
+    <div class="gameplayvideo">
+        <strong class="entry">Gameplay video :</strong> 
+        <iframe width="960" height="515" src="https://www.youtube.com/embed/5oY_jibP98I?si=d_REhrofsxnTX0Xs" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <div class="details">
+        <strong class="entry">Gameplay Mechanics: </strong>
+        <br>
+        <strong class="subentry">Gliding: </strong>
+        <br>
+        <p class="para"> Players can hold 'v' to glide while jumping.    </p>
+        <br>
+        <img src="Images/glide_gif.gif" alt="Mountains" width="700" height="400">
+
+        <br><br>
+        <strong class="subentry">Weapon swap: </strong>
+        <br>
+        <p class="para"> Players can swap between two weapons, pistol and a rifle. The rifle deals more damage but has a low fire rate 
+            and the pistol deals less damage but can shoot faster. </p>
+            <br>
+            <img src="Images/gun_swap_gif.gif" alt="Mountains" width="700" height="400">
+
+        <br><br>
+        <strong class="subentry">Enemy: </strong>
+        <br>
+        <p class="para"> The enemy AI is made using finite state machine. It generates a random path for the enemy to patrol in every loop. This means 
+            thet the enemy will move a different path after patroling a path once.   </p>
+            <br>
+            <img src="Images/enemy_gif.gif" alt="Mountains" width="700" height="400">
+
+        <br> <br>
+        <strong class="entry">Networking: </strong>
+        <p class="para"> PUN networking solution is used for the multiplayer aspect of the game. </p>    
+    </div>
+    
+</section>
+
+<!-- ------- Contact Me ---------->
+
+
+
+
+</div>
+
+<footer>
+  <p>Copyright &#169; 2023 Akshat Agrawal. All Rights Reserved.</p>
+</footer>
+
+<script src = "script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Portfolio | Akshat Agrawal </title>
+      <link rel="stylesheet" href="project3.css"> 
+      <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <div class="box">
+<nav id="desktop-nav">
+  <div class="container">
+  <nav>
+  <p class="p1">Akshat Agrawal</p>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="containerHam">
+        <nav>
+  <p class="p1">Akshat Agrawal</p>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">About</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+      <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+  </div>
+  </nav>
+  </div>
+</nav>
+
+<!-- Project details -->
+
+<section id="projectD">
+    <h1 class="title">Magnus Effect in Tennis</h1>
+    <ul class="details-list">
+        <li><strong class="entry">Platform :</strong> Windows</li>
+        <li><strong class="entry">Made in: </strong> Unity</li>
+        <li><strong class="entry">Language :</strong> C#</li>
+        <li><strong class="entry">Duration :</strong> 2 months</li>
+        <li><strong class="entry">Project type :</strong> Master's project</li>
+    </ul>
+    <div class="overview">
+        <strong class="entry">Overwiew :</strong>
+        <p class="para"> This was created for my master's research project at Abertay university. It was focused on developing 
+            an algorithm to simulate the trajectory of a ball under the effect of the Magnus force. The Magnus force in sports refers 
+            to the aerodynamic force that affects a spinning object's trajectory, causing it to curve or swerve due to differences in 
+            air pressure around the object. Most of the Indie games I came across either use approximations for the Magnus effect or 
+            skip this force altogether. I built this algorithm around tennis to test and compare the trajectories of the ball 
+            and the efficiency of the algorithm. The research was done with the goal of understanding if a seperate complicated algorithm
+            for the Magnus force can provide better results than the approximationsc without losing any efficiency, and how to 
+            implment them. Read more about the results in my Dissertation.    </p>
+    </div>
+    <br>
+
+    <img src="Images/tennis_gif.gif" alt="Mountains" width="800" height="300">
+
+   
+    
+</section>
+
+</div>
+
+<footer>
+    <p>Copyright &#169; 2023 Akshat Agrawal. All Rights Reserved.</p>
+  </footer>
+
+    <script src = "script.js"></script>
+  </body>
+</html>
