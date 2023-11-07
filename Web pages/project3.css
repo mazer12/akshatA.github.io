@@ -264,7 +264,11 @@ a:hover {
     opacity: 90%;
   }
 
+.wtf{
+/*     color: rgb(181, 181, 181); */
+    position:absolute;
 
+  }
 
 .gameplayvideo{
     margin-top: 2rem;
