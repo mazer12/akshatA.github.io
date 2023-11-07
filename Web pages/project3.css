@@ -102,7 +102,7 @@ a {
   text-decoration: none;
   text-decoration-color: white;
   float: left;
-    text-align: center;
+/*     text-align: center; */
     padding: 10px 10px;
     text-decoration: none;
     font-size: 20px;
@@ -263,12 +263,6 @@ a:hover {
     color: rgb(181, 181, 181);
     opacity: 90%;
   }
-
-a{
-  display:block;
-  color: rgb(181, 181, 181);
-  opacity: 90%;
-}
 
 .gameplayvideo{
     margin-top: 2rem;
